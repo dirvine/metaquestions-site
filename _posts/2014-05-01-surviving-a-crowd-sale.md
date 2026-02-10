@@ -3,11 +3,6 @@ layout: post
 title: "Surviving a crowd sale"
 date: 2014-05-01
 author: David Irvine
-categories:
-  - MaidSafe
-  - Personal Opinion
-  - safecoin
-  - strategy
 ---
 David Irvine recounts the experience of MaidSafe's cryptocurrency crowdsale in April 2014. After 8 years of development and nearly $5 million from friends and family, MaidSafe launched a crowdsale using the Master Protocol to issue MaidSafeCoins.
 ## Key Points

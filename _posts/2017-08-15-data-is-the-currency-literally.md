@@ -3,11 +3,6 @@ layout: post
 title: "Data is the currency, literally!"
 date: 2017-08-15
 author: David Irvine
-categories:
-  - complex systems
-  - MaidSafe
-  - Personal Opinion
-  - safecoin
 ---
 This post clarifies the SAFE Network concept, distinguishing it from blockchain-based data storage projects.
 ## Key Points

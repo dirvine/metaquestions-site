@@ -3,8 +3,6 @@ layout: post
 title: "The SAFE Network: A Deep Dive into the Wisdom of Natural Systems"
 date: 2023-09-11
 author: David Irvine
-categories:
-  - Uncategorized
 ---
 This blog post explores how natural systems like ant and bee colonies can inform the design of the SAFE Network. The author argues against network-wide consensus and total order, which he considers unnatural constructs that create bottlenecks.
 ## The Mirage of Network-Wide Consensus

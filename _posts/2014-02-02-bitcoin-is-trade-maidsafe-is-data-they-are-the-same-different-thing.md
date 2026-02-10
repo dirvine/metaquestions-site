@@ -3,8 +3,6 @@ layout: post
 title: "What happens when an autonomous data network meets an autonomous trade mechanism?"
 date: 2014-02-02
 author: David Irvine
-categories:
-  - MaidSafe
 ---
 This blog post explores the synergy between Bitcoin (an autonomous trade mechanism) and MaidSafe (an autonomous data network). The author argues these are complementary but distinct systems:
 - **Bitcoin**: A decentralized network designed for transactions and financial instruments, fueled by transactions

@@ -3,10 +3,6 @@ layout: post
 title: "The language of the network"
 date: 2015-02-05
 author: David Irvine
-categories:
-  - complex systems
-  - MaidSafe
-  - strategy
 ---
 David Irvine describes a breakthrough discovery in MaidSafe's network architecture - identifying four fundamental persona types that simplify the network's complexity and create a "language" to describe vault operations.
 ## Key Discovery: Four Authority Types

@@ -3,10 +3,6 @@ layout: post
 title: "Safecoin, why it's safe and what it means for us all"
 date: 2014-04-12
 author: David Irvine
-categories:
-  - MaidSafe
-  - Personal Opinion
-  - safecoin
 ---
 This blog post explains Safecoin, a cryptocurrency generated and protected by the SAFE network. Unlike Bitcoin's blockchain approach, Safecoin uses a fully decentralized system capable of millions of transactions per second with network atomic operations.
 ## Safecoin Fundamentals

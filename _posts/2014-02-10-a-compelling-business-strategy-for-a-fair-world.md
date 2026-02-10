@@ -3,9 +3,6 @@ layout: post
 title: "A compelling business strategy for a fair world"
 date: 2014-02-10
 author: David Irvine
-categories:
-  - MaidSafe
-  - nature
 ---
 This blog post discusses MaidSafe's business strategy for creating a decentralized internet.
 ## Key Topics

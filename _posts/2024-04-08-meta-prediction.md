@@ -3,8 +3,6 @@ layout: post
 title: "Meta Prediction"
 date: 2024-04-08
 author: David Irvine
-categories:
-  - Uncategorized
 ---
 A prediction on AI and how it relates to the AutonomI network (previously known as the SAFE network).
 ## Observation

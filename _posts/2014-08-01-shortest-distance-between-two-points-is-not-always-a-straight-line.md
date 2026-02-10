@@ -3,9 +3,6 @@ layout: post
 title: "Shortest distance between two points is not always a straight line"
 date: 2014-08-01
 author: David Irvine
-categories:
-  - complex systems
-  - MaidSafe
 ---
 This blog post explains XOR-based networking concepts used in MaidSafe, contrasting them with traditional linear/Euclidean thinking. The author explains how XOR distance metrics work differently from conventional number systems, creating unique properties useful for decentralized networks.
 ## XOR Distance Properties

@@ -3,10 +3,6 @@ layout: post
 title: "Bitcoin blockchain is not a thing, it's a design pattern"
 date: 2014-02-15
 author: David Irvine
-categories:
-  - complex systems
-  - MaidSafe
-  - nature
 ---
 The article argues that Bitcoin's value lies not in the blockchain itself, but in its ability to cryptographically confirm transactions in a non-reversible manner. The author emphasizes that the blockchain is a mechanism to agree on transaction locks, not a universal solution.
 ## Key Points

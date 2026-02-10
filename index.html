@@ -12,9 +12,6 @@ title: Home
       </h3>
       <p class="post-meta">
         <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
-        {% if post.categories %}
-        in {% for category in post.categories %}{{ category }}{% unless forloop.last %}, {% endunless %}{% endfor %}
-        {% endif %}
       </p>
       <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
     </li>

@@ -3,9 +3,6 @@ layout: post
 title: "SAFE, use case. Honest data networks"
 date: 2017-08-21
 author: David Irvine
-categories:
-  - MaidSafe
-  - Personal Opinion
 ---
 This blog post discusses the limitations of blockchain-based projects that claim to secure data by storing only hashes (data identifiers) on the blockchain rather than the actual data. The author argues that the SAFE Network solves this problem by storing and securing the actual data in the same location.
 ## The Problem with Current Blockchain Solutions

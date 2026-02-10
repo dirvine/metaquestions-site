@@ -3,10 +3,6 @@ layout: post
 title: "Project SAFE - Is this the fair business model at last?"
 date: 2014-04-02
 author: David Irvine
-categories:
-  - complex systems
-  - MaidSafe
-  - strategy
 ---
 This technical blog post explores Project SAFE and the MaidSafe network's proposed business model using safecoin cryptocurrency. The author discusses how the system would provide free access to users while incentivizing resource providers (miners) with safecoins.
 ## The Free Lunch Paradox

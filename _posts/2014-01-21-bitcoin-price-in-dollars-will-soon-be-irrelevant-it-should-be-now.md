@@ -3,7 +3,6 @@ layout: post
 title: "Bitcoin price in dollars will soon be irrelevant (it should be now)"
 date: 2014-01-21
 author: David Irvine
-categories:
 ---
 The author expresses enthusiasm for Bitcoin despite initially having reservations about its shortfalls. The main argument is that Bitcoin's price in fiat currencies (dollars, euros, pounds) shouldn't matter because Bitcoin is a trading mechanism that allows borderless transfer of goods and services.
 ## Key Points

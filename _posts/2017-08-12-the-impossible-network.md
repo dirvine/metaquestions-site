@@ -3,11 +3,6 @@ layout: post
 title: "The Impossible Network"
 date: 2017-08-12
 author: David Irvine
-categories:
-  - complex systems
-  - MaidSafe
-  - Personal Opinion
-  - Privacy
 ---
 David Irvine explains the vision behind the SAFE network - what he calls "The Impossible Network." He argues that the term "decentralized Internet" has become overused and no longer differentiates MaidSafe from other projects. Instead, he introduces the concept of an **Autonomous Network** - a network with zero human intervention that self-configures, self-heals, and manages itself entirely through code.
 ## What Makes SAFE Different

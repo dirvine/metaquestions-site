@@ -3,8 +3,6 @@ layout: post
 title: "Simplicity, complexity and creativity"
 date: 2023-10-23
 author: David Irvine
-categories:
-  - Uncategorized
 ---
 The author reflects on the surprising simplicity of modern AI systems like LLMs, arguing that their success challenges assumptions about complexity and intelligence.
 ## Key Themes

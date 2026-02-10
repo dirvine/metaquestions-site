@@ -3,8 +3,6 @@ layout: post
 title: "Lavabit will always happen when servers are involved"
 date: 2014-02-03
 author: David Irvine
-categories:
-  - Privacy
 ---
 The author argues that centralized servers and human involvement inevitably lead to corruption and privacy failures (like the Lavabit case). The post advocates for decentralized, math-based networks that don't store human-readable data.
 ## Key Arguments

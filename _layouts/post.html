@@ -8,13 +8,6 @@ layout: default
       <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
       {% if page.author %} by {{ page.author }}{% endif %}
     </p>
-    {% if page.categories %}
-    <div class="post-categories">
-      {% for category in page.categories %}
-        <span class="category">{{ category }}</span>
-      {% endfor %}
-    </div>
-    {% endif %}
   </header>
 
   <div class="post-content">

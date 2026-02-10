@@ -3,8 +3,6 @@ layout: post
 title: "Duty and Obligation"
 date: 2014-01-22
 author: David Irvine
-categories:
-  - Privacy
 ---
 The article discusses the distinction between duty (being honorable and ethical) and obligation (following the law), inspired by a SlashDot comment about Lavabit. The author argues that when laws are stretched beyond morality—whether for tax avoidance or security overreach—duty should take precedence.
 ## Key Points

@@ -3,8 +3,6 @@ layout: post
 title: "Data chains: what? why? how?"
 date: 2016-07-20
 author: David Irvine
-categories:
-  - Uncategorized
 ---
 This blog post explains data chains as a decentralized data structure concept for the SAFE Network. Unlike blockchains that track transactions, data chains link together data identifiers (hashes, names, types) rather than the data itself, enabling validation that data belongs on a network.
 ## Key Concepts

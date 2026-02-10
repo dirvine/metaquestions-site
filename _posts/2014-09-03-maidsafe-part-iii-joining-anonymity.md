@@ -3,9 +3,6 @@ layout: post
 title: "MaidSafe part III - Joining & anonymity"
 date: 2014-09-03
 author: David Irvine
-categories:
-  - complex systems
-  - MaidSafe
 ---
 This post explains how MaidSafe's network handles node joining and maintains anonymity, contrasting it with Tor/i2p approaches. The key difference is that IP addresses don't traverse the network in MaidSafe.
 ## Network Architecture

@@ -3,9 +3,6 @@ layout: post
 title: "Why do I keep going on about ants and nature"
 date: 2014-02-04
 author: David Irvine
-categories:
-  - complex systems
-  - nature
 ---
 The author explains their ant analogy for the MaidSafe network, based on discussions with Deborah Gordon at Stanford's Gordon Institute who studies Harvester ants.
 ## Key Observations from Deborah Gordon's Research

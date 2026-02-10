@@ -3,9 +3,6 @@ layout: post
 title: "Proof Of Storage (maidsafe part II), follow up video"
 date: 2014-08-27
 author: David Irvine
-categories:
-  - complex systems
-  - MaidSafe
 ---
 A follow-up post explaining how MaidSafe uses hashes to identify data and self-encryption for data security. The post distinguishes between "logical security" (encryption) and "physical security" (distributed storage across a decentralized network).
 ## Logical Security

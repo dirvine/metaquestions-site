@@ -3,7 +3,6 @@ layout: post
 title: "Machines that own themselves in bitcoin"
 date: 2014-02-19
 author: David Irvine
-categories:
 ---
 This blog post explores the concept of autonomous machines that own themselves using Bitcoin. The author envisions robotic workers (like waiters) that earn Bitcoin for services, pay for their own power and repairs, and eventually become self-owning after paying back their builders.
 ## Key Concepts

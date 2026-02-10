@@ -3,8 +3,6 @@ layout: post
 title: "Experts and the corruption of truth!"
 date: 2014-10-12
 author: David Irvine
-categories:
-  - Uncategorized
 ---
 This blog post is a philosophical rant about the limitations of expertise, mathematical proofs, and scientific validation. The author argues that complex equations, peer-reviewed papers, and experimental measurements are often used as badges of authority rather than true understanding.
 ## Key Points

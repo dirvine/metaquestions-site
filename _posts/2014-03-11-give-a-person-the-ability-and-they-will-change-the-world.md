@@ -3,9 +3,6 @@ layout: post
 title: "Give a person the ability and they will change the world"
 date: 2014-03-11
 author: David Irvine
-categories:
-  - complex systems
-  - nature
 ---
 The article critiques various political and economic systems (Capitalism, Communism, Fascism, Socialism, etc.) arguing they all fail because self-interest corrupts each system. The author proposes "Proof of Resource" as a mathematical solution for creating a fair society where work is rewarded and value is recognized appropriately.
 ## Proof of Resource

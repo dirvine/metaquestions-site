@@ -3,8 +3,6 @@ layout: post
 title: "Introduction & Technical Overview of SAFE Consensus"
 date: 2016-06-27
 author: David Irvine
-categories:
-  - Uncategorized
 ---
 This is a brief link post that references an external article about SAFE Consensus.
 > The features included in decentralized networks can be quite varied based on the proposed goals of the technology. From the sharing capabilities offered by Bittorrent to user privacy enabled via Tor...

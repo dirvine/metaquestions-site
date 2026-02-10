@@ -3,10 +3,6 @@ layout: post
 title: "Proof Of Storage (maidsafe part II)"
 date: 2014-08-17
 author: David Irvine
-categories:
-  - complex systems
-  - MaidSafe
-  - Uncategorized
 ---
 This blog post explains the concept of Proof of Storage as part of MaidSafe's Proof of Resource mechanism. The author breaks down what hashes are, explains secure hashes, and describes the Integrity Check process used to verify data storage without transferring the actual data.
 ## Key Concepts

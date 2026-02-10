@@ -3,8 +3,6 @@ layout: post
 title: "Consensus is (almost) never what you need"
 date: 2024-08-24
 author: David Irvine
-categories:
-  - Uncategorized
 ---
 The article argues for a paradigm shift in decentralized systems: moving from deterministic consensus models to probabilistic approaches. The author contends that consensus mechanisms and time synchronization are limiting innovation in distributed systems.
 ## Problems with Consensus

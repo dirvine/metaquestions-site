@@ -3,11 +3,6 @@ layout: post
 title: "In a MaidSafe state of mind"
 date: 2014-04-19
 author: David Irvine
-categories:
-  - complex systems
-  - nature
-  - Personal Opinion
-  - strategy
 ---
 This blog post discusses David Irvine's approach to innovation and the "MaidSafe way" of thinking. He outlines key principles for tackling complex problems:
 - Find a vision and pursue it fully

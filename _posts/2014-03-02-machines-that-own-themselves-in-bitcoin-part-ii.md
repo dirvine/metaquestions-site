@@ -3,8 +3,6 @@ layout: post
 title: "Machines that own themselves in bitcoin part II"
 date: 2014-03-02
 author: David Irvine
-categories:
-  - MaidSafe
 ---
 This blog post is the second part of a series exploring how machines can own themselves using bitcoin and autonomous networks. The author discusses how combining bitcoin with autonomous data networks like MaidSafe could enable self-driving taxis and other machines to communicate, share data, and operate with maximum financial efficiency.
 ## Key Topics Covered

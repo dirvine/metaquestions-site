@@ -3,12 +3,6 @@ layout: post
 title: "Beyond a copy of the Internet"
 date: 2017-09-06
 author: David Irvine
-categories:
-  - complex systems
-  - MaidSafe
-  - nature
-  - Personal Opinion
-  - Uncategorized
 ---
 This blog post explores how the SAFE network can enable secure, autonomous data sharing across industries including autonomous vehicles, robotics/AI, and healthcare. The author argues that traditional server-based systems are vulnerable to corruption and proposes using Mutable Data types with multisig ownership to create decentralized, incorruptible data sharing systems.
 ## Autonomous Vehicle Industry

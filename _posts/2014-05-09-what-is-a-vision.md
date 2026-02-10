@@ -3,9 +3,6 @@ layout: post
 title: "What is a vision?"
 date: 2014-05-09
 author: David Irvine
-categories:
-  - Personal Opinion
-  - strategy
 ---
 A reflective essay on the nature of visions for change, using MaidSafe's emergence as context. The author categorizes people's reactions to transformative visions into three groups and explores how visions evolve, who owns them, and lessons for those pursuing meaningful change.
 ## MaidSafe's Vision

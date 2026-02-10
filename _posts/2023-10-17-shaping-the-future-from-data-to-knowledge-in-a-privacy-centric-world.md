@@ -3,8 +3,6 @@ layout: post
 title: "Shaping the Future: From Data to Knowledge in a Privacy-Centric World"
 date: 2023-10-17
 author: David Irvine
-categories:
-  - Uncategorized
 ---
 This blog post explores the shift from data-centric to knowledge-centric models in the digital landscape, covering five key areas:
 1. **Digital Advertising Reimagined** - Moving from attention capture to value-based advertising assisted by AI

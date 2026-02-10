@@ -3,9 +3,6 @@ layout: post
 title: "Security and ethics"
 date: 2014-03-21
 author: David Irvine
-categories:
-  - MaidSafe
-  - strategy
 ---
 This blog post argues that ethics in business, like security, requires openness and transparency. The author draws parallels between the security industry's requirement for full disclosure of algorithms and the need for businesses to be openly ethical.
 ## Ethics and Exploitation

@@ -198,6 +198,19 @@ body {
   border-bottom: 1px solid var(--gray-300);
 }
 
+.back-home {
+  display: inline-block;
+  color: var(--gray-600);
+  text-decoration: none;
+  font-size: 13px;
+  margin-bottom: 24px;
+  transition: color 0.2s;
+}
+
+.back-home:hover {
+  color: var(--black);
+}
+
 .post-title {
   font-family: var(--font-handwriting);
   font-size: 42px;

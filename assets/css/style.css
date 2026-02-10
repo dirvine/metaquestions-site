@@ -357,6 +357,20 @@ body {
   color: var(--black);
 }
 
+.footer-subtle {
+  margin-top: 24px;
+  font-size: 10px;
+  opacity: 0.4;
+}
+
+.footer-subtle a {
+  color: var(--gray-500);
+}
+
+.footer-subtle a:hover {
+  opacity: 1;
+}
+
 /* Responsive */
 @media (max-width: 600px) {
   body {

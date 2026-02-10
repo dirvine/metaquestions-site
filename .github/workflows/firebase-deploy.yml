@@ -23,10 +23,18 @@ jobs:
       env:
         JEKYLL_ENV: production
     
-    - name: Deploy to Firebase
-      uses: FirebaseExtended/action-hosting-deploy@v0
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
       with:
-        repoToken: '${{ secrets.GITHUB_TOKEN }}'
-        firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT }}'
-        channelId: live
-        projectId: metaquestions-site
+        node-version: '20'
+    
+    - name: Install Firebase CLI
+      run: npm install -g firebase-tools
+    
+    - name: Deploy to Firebase
+      env:
+        FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+      run: |
+        echo "$FIREBASE_SERVICE_ACCOUNT" > service-account.json
+        export GOOGLE_APPLICATION_CREDENTIALS="$(pwd)/service-account.json"
+        firebase deploy --only hosting --project metaquestions-site

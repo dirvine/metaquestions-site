@@ -114,18 +114,18 @@ body {
 
 .post-list-item {
   margin-bottom: 40px;
-  padding-bottom: 40px;
-  border-bottom: 1px solid var(--gray-300);
-  transition: transform 0.2s ease, background 0.2s ease;
   padding: 24px;
-  margin-left: -24px;
-  margin-right: -24px;
-  border-radius: 8px;
+  border: 1px solid transparent;
+  border-bottom: 1px solid var(--gray-300);
+  transition: all 0.2s ease;
+  cursor: pointer;
 }
 
 .post-list-item:hover {
-  transform: translateX(8px);
   background: var(--white);
+  border: 1px solid var(--gray-300);
+  transform: translate(-2px, -2px);
+  box-shadow: 4px 4px 0 var(--gray-300);
 }
 
 .post-list-item:last-child {

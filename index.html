@@ -4,17 +4,16 @@ title: Home
 ---
 <div class="home">
   <h2>Recent Posts</h2>
-  <ul class="post-list">
+  <div class="cards-grid">
     {% for post in site.posts %}
-    <li class="post-list-item">
-      <h3 class="post-list-title">
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      </h3>
-      <p class="post-meta">
-        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
-      </p>
-      <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
-    </li>
+    <a href="{{ post.url | relative_url }}" class="card">
+      <div class="card-content">
+        <div class="card-date">{{ post.date | date: "%B %-d, %Y" }}</div>
+        <div class="card-title">{{ post.title }}</div>
+        <div class="card-description">{{ post.excerpt | strip_html | truncatewords: 40 }}</div>
+      </div>
+      <span class="card-arrow">&rarr;</span>
+    </a>
     {% endfor %}
-  </ul>
+  </div>
 </div>

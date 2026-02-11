@@ -22,6 +22,9 @@ collections:
   pages:
     output: true
     permalink: /:path/
+  fae:
+    output: true
+    permalink: /fae/:path/
 
 # Pagination
 paginate: 10
@@ -39,6 +42,11 @@ defaults:
       type: "pages"
     values:
       layout: "page"
+  - scope:
+      path: ""
+      type: "fae"
+    values:
+      layout: "post"
 
 # Categories
 categories:

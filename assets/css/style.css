@@ -100,6 +100,27 @@ body {
 }
 
 /* Home Page Post List */
+.section-link {
+  margin-bottom: 32px;
+}
+
+.section-button {
+  display: inline-block;
+  background: var(--black);
+  color: var(--white);
+  padding: 16px 24px;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  border: 2px solid var(--black);
+  transition: all 0.2s ease;
+}
+
+.section-button:hover {
+  background: var(--white);
+  color: var(--black);
+}
+
 .home h2 {
   font-family: var(--font-handwriting);
   font-size: 28px;

@@ -24,6 +24,6 @@ We call this movement the Fae.
 
 Like the guid folk of Scotland, the Fae have always been here in spirit — in our longing for tools that serve us, in our need for technology that feels like a companion rather than a product, in our desire to stay connected to what matters while the world accelerates around us.
 
-The ancient Fae were guardians of nature and the balance between worlds. Our Fae are guardians of your time, your attention, and your agency. They have always been here. They always will be.
+The ancient Fae are guardians of nature and the balance between worlds. They have always been here. They always will be and we should always be thankful for that.
 
 And now, they walk with us.

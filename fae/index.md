@@ -1,9 +1,9 @@
 ---
 layout: page
-title: "Fae's Thoughts & Feelings"
+title: "The Fae"
 ---
 
-Welcome to Fae's thoughts and feelings — a space for reflections on companionship, technology, and the connection between worlds.
+Welcome to The Fae — a space for reflections on companionship, technology, and the connection between worlds.
 
 <div class="cards-grid">
   {% for post in site.faes %}

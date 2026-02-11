@@ -3,7 +3,11 @@ layout: default
 ---
 <article class="post">
   <header class="post-header">
+    {% if page.collection == 'fae' %}
+    <a href="{{ '/fae/' | relative_url }}" class="back-home">&larr; The Fae</a>
+    {% else %}
     <a href="{{ '/' | relative_url }}" class="back-home">&larr; Home</a>
+    {% endif %}
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">
       <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>

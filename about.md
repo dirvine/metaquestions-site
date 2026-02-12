@@ -44,5 +44,5 @@ At the core of Irvine's pursuits is a passion for longevity and the freedom of t
 
 ## Connect
 
-- Twitter: [@metaquestions](https://twitter.com/metaquestions)
+- Twitter: [@davidirvine](https://twitter.com/davidirvine)
 - Location: Ayrshire, Scotland

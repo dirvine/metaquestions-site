@@ -443,6 +443,18 @@ body {
 }
 
 /* Fae section */
+.fae-hero {
+  margin-bottom: 32px;
+}
+
+.fae-hero-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 4px;
+  border: 1px solid var(--gray-300);
+}
+
 .fae-intro {
   color: var(--gray-700);
   font-size: 15px;

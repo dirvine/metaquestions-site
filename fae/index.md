@@ -3,8 +3,9 @@ layout: default
 title: "The Fae"
 ---
 <div class="home">
-  <h2>Welcome</h2>
-  <p class="fae-intro">A space for reflections on companionship, technology, and the connection between worlds.</p>
+  <div class="fae-hero">
+    <img src="{{ '/assets/images/fae.jpg' | relative_url }}" alt="Fae - the gentle folk of Scotland's roots" class="fae-hero-img">
+  </div>
   <div class="cards-grid">
     {% assign sorted_fae = site.fae | sort: 'date' | reverse %}
     {% assign pinned = sorted_fae | where: 'pin', true %}

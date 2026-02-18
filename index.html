@@ -23,10 +23,10 @@ title: Home
   {% if paginator.total_pages > 1 %}
   <nav class="pagination" aria-label="Pagination">
     {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path | relative_url }}" class="prev">&larr; Newer Posts</a>
+      <a href="{{ paginator.previous_page_path | relative_url }}" class="prev">Newer Posts</a>
     {% endif %}
     {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path | relative_url }}" class="next">Older Posts &rarr;</a>
+      <a href="{{ paginator.next_page_path | relative_url }}" class="next">Older Posts</a>
     {% endif %}
   </nav>
   {% endif %}

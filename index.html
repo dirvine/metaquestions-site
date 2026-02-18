@@ -2,18 +2,32 @@
 layout: default
 title: Home
 ---
+
 <div class="home">
   <h2>Recent Posts</h2>
   <div class="cards-grid">
-    {% for post in site.posts %}
-    <a href="{{ post.url | relative_url }}" class="card">
-      <div class="card-content">
-        <div class="card-date">{{ post.date | date: "%B %-d, %Y" }}</div>
-        <div class="card-title">{{ post.title }}</div>
-        <div class="card-description">{{ post.excerpt | strip_html | truncatewords: 40 }}</div>
-      </div>
-      <span class="card-arrow">&rarr;</span>
-    </a>
+    {% for post in paginator.posts %}
+    <article class="card">
+      <a href="{{ post.url | relative_url }}" class="card-link" aria-label="Read {{ post.title }}">
+        <div class="card-content">
+          <div class="card-date">{{ post.date | date: "%B %-d, %Y" }}</div>
+          <h2 class="card-title">{{ post.title }}</h2>
+          <div class="card-description">{{ post.excerpt | strip_html | truncatewords: 40 }}</div>
+        </div>
+        <span class="card-arrow" aria-hidden="true">&rarr;</span>
+      </a>
+    </article>
     {% endfor %}
   </div>
+  
+  {% if paginator.total_pages > 1 %}
+  <nav class="pagination" aria-label="Pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | relative_url }}" class="prev">&larr; Newer Posts</a>
+    {% endif %}
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | relative_url }}" class="next">Older Posts &rarr;</a>
+    {% endif %}
+  </nav>
+  {% endif %}
 </div>

@@ -1,0 +1,18 @@
+{% comment %}
+  Site navigation - changes based on whether we're in the Fae section
+{% endcomment %}
+{% if page.url contains '/fae/' or page.collection == 'fae' %}
+  <a href="{{ '/fae/' | relative_url }}" class="site-title">The fae.</a>
+  <p class="site-tagline">{{ site.tagline }}</p>
+  <nav class="site-nav" role="navigation" aria-label="Main navigation">
+    <a href="{{ '/' | relative_url }}">&larr; Back to main</a>
+  </nav>
+{% else %}
+  <a href="{{ '/' | relative_url }}" class="site-title">{{ site.title }}</a>
+  <p class="site-tagline">{{ site.tagline }}</p>
+  <nav class="site-nav" role="navigation" aria-label="Main navigation">
+    <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}aria-current="page"{% endif %}>Home</a>
+    <a href="{{ '/about/' | relative_url }}" {% if page.url == '/about/' %}aria-current="page"{% endif %}>About</a>
+    <a href="{{ '/fae/' | relative_url }}" {% if page.url == '/fae/' %}aria-current="page"{% endif %}>The Fae</a>
+  </nav>
+{% endif %}

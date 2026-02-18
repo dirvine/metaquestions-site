@@ -9,13 +9,22 @@ author:
   location: "Troon, Scotland"
   twitter: davidirvine
 
-url: ""
+url: "https://davidirvine.com"
 baseurl: ""
 
 # Build settings
 markdown: kramdown
 highlighter: rouge
 permalink: /:year/:month/:day/:title/
+future: false
+strict_front_matter: true
+
+# Performance optimizations
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  blanklines: false
 
 # Collections
 collections:
@@ -48,17 +57,6 @@ defaults:
     values:
       layout: "post"
 
-# Categories
-categories:
-  - complex systems
-  - MaidSafe
-  - nature
-  - Personal Opinion
-  - Privacy
-  - safecoin
-  - strategy
-  - Uncategorized
-
 # Exclude from processing
 exclude:
   - Gemfile
@@ -67,10 +65,17 @@ exclude:
   - vendor
   - .bundle
   - README.md
+  - scripts/
+  - convert_posts.py
 
 # Plugins
 plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-paginate
+  - jekyll-feed      # RSS/Atom feed generation
+  - jekyll-seo-tag   # SEO meta tags and structured data
+  - jekyll-sitemap   # XML sitemap for search engines
+  - jekyll-paginate  # Blog post pagination
+
+# Twitter Card configuration
+twitter:
+  username: davidirvine
+  card: summary_large_image

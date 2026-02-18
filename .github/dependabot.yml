@@ -1,0 +1,25 @@
+version: 2
+updates:
+  # Enable version updates for Ruby gems (Jekyll dependencies)
+  - package-ecosystem: "bundler"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 10
+    reviewers:
+      - "dirvine"
+    commit-message:
+      prefix: "chore"
+      include: "scope"
+
+  # Enable version updates for GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+    reviewers:
+      - "dirvine"
+    commit-message:
+      prefix: "ci"
+      include: "scope"

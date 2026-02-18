@@ -1,0 +1,8 @@
+<p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name | default: "David Irvine" }}</p>
+<p>
+  {% if site.author.twitter %}
+  <a href="https://twitter.com/{{ site.author.twitter }}" rel="noopener noreferrer" target="_blank">Twitter</a> · 
+  {% endif %}
+  {{ site.author.location | default: "Troon, Scotland" }}
+</p>
+<p class="footer-subtle"><a href="{{ '/essays/' | relative_url }}">Essays</a></p>
